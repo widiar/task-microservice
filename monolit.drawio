@@ -1,0 +1,98 @@
+<mxfile host="app.diagrams.net" modified="2024-08-26T08:41:05.742Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" etag="JawohwKXclUPUNosiCiU" version="23.1.6" type="device">
+  <diagram name="Page-1" id="4GcXviAisNbPIXW8O3zc">
+    <mxGraphModel dx="956" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DMBZNCwthE7TxLEUFBSM-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DMBZNCwthE7TxLEUFBSM-1" target="DMBZNCwthE7TxLEUFBSM-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DMBZNCwthE7TxLEUFBSM-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="205" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DMBZNCwthE7TxLEUFBSM-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DMBZNCwthE7TxLEUFBSM-37" target="DMBZNCwthE7TxLEUFBSM-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DMBZNCwthE7TxLEUFBSM-3" value="User Management" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="137.5" width="240" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="DMBZNCwthE7TxLEUFBSM-4" value="Login / Logout" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DMBZNCwthE7TxLEUFBSM-3">
+          <mxGeometry x="70" y="50" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DMBZNCwthE7TxLEUFBSM-17" value="Kelola Membership" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DMBZNCwthE7TxLEUFBSM-3">
+          <mxGeometry x="70" y="105" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DMBZNCwthE7TxLEUFBSM-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=block;startFill=1;endArrow=block;endFill=1;" edge="1" parent="1" source="DMBZNCwthE7TxLEUFBSM-10" target="DMBZNCwthE7TxLEUFBSM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DMBZNCwthE7TxLEUFBSM-10" value="Database&lt;br&gt;User" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="490" y="100" width="80" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="DMBZNCwthE7TxLEUFBSM-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DMBZNCwthE7TxLEUFBSM-13" target="DMBZNCwthE7TxLEUFBSM-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DMBZNCwthE7TxLEUFBSM-13" value="Payment Management" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="280" width="240" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="DMBZNCwthE7TxLEUFBSM-15" value="Kelola Pembayaran" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DMBZNCwthE7TxLEUFBSM-13">
+          <mxGeometry x="70" y="50" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DMBZNCwthE7TxLEUFBSM-18" value="Penerbitan Invoice" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DMBZNCwthE7TxLEUFBSM-13">
+          <mxGeometry x="70" y="115" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DMBZNCwthE7TxLEUFBSM-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DMBZNCwthE7TxLEUFBSM-19" target="DMBZNCwthE7TxLEUFBSM-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DMBZNCwthE7TxLEUFBSM-19" value="Ticket Management" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="490" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DMBZNCwthE7TxLEUFBSM-20" value="Kelola Aduan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DMBZNCwthE7TxLEUFBSM-19">
+          <mxGeometry x="70" y="50" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DMBZNCwthE7TxLEUFBSM-25" value="DB Payment" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="730" y="327.5" width="80" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="DMBZNCwthE7TxLEUFBSM-26" value="DB Ticket" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="730" y="508" width="80" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="DMBZNCwthE7TxLEUFBSM-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DMBZNCwthE7TxLEUFBSM-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DMBZNCwthE7TxLEUFBSM-29" value="Internet&#xa;gateway" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.internet_gateway;" vertex="1" parent="1">
+          <mxGeometry x="80" y="212.5" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="DMBZNCwthE7TxLEUFBSM-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DMBZNCwthE7TxLEUFBSM-3" target="DMBZNCwthE7TxLEUFBSM-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="235" as="sourcePoint" />
+            <mxPoint x="430" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DMBZNCwthE7TxLEUFBSM-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DMBZNCwthE7TxLEUFBSM-22" target="DMBZNCwthE7TxLEUFBSM-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="260" />
+              <mxPoint x="550" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DMBZNCwthE7TxLEUFBSM-22" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.internet_alt2;" vertex="1" parent="1">
+          <mxGeometry x="450" y="215" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DMBZNCwthE7TxLEUFBSM-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DMBZNCwthE7TxLEUFBSM-3" target="DMBZNCwthE7TxLEUFBSM-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="333" as="sourcePoint" />
+            <mxPoint x="430" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DMBZNCwthE7TxLEUFBSM-37" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.internet_alt2;" vertex="1" parent="1">
+          <mxGeometry x="310" y="395" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DMBZNCwthE7TxLEUFBSM-43" value="CARWASH MANAGEMENT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="300" y="30" width="250" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
