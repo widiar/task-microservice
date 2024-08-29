@@ -9,5 +9,5 @@ public class BaseResponse<T> {
     private T data;
 
     @JsonIgnore
-    private int httpCode;
+    private int httpCode = 200;
 }

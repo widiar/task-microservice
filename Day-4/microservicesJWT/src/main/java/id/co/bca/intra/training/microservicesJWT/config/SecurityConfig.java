@@ -27,34 +27,11 @@ public class SecurityConfig {
         http
                 .csrf(csrt -> csrt.disable())
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/api/auth/*")
+                        .requestMatchers("/api/auth/*", "/actuator/**")
                         .permitAll().anyRequest().authenticated()
                 ).sessionManagement(sess -> sess.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .addFilterBefore(authFilter, UsernamePasswordAuthenticationFilter.class);
 //                .authenticationProvider(authenticationProvider());
         return http.build();
-    }
-
-//    @Bean
-//    public UserDetailsService userDetailsService() {
-//        return new UserService(); // Ensure UserInfoService implements UserDetailsService
-//    }
-
-    @Bean
-    public PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder(); // Password encoding
-    }
-
-//    @Bean
-//    public AuthenticationProvider authenticationProvider() {
-//        DaoAuthenticationProvider authenticationProvider = new DaoAuthenticationProvider();
-////        authenticationProvider.setUserDetailsService(userDetailsService());
-//        authenticationProvider.setPasswordEncoder(passwordEncoder());
-//        return authenticationProvider;
-//    }
-
-    @Bean
-    public AuthenticationManager authenticationManager(AuthenticationConfiguration config) throws Exception {
-        return config.getAuthenticationManager();
     }
 }
